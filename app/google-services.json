@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "490898174658",
+    "firebase_url": "https://radiointerativa-8ac67.firebaseio.com",
+    "project_id": "radiointerativa-8ac67",
+    "storage_bucket": "radiointerativa-8ac67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490898174658:android:15e51396cdcf98bd",
+        "android_client_info": {
+          "package_name": "edmt.dev.androidmp3stream"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490898174658-vf84qjv8p3q2ogp8lsfm5s6vfa7u370i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edmt.dev.androidmp3stream",
+            "certificate_hash": "1861afbbc9970eea1920a5a8096bb2fd675a919d"
+          }
+        },
+        {
+          "client_id": "490898174658-dchgsirc56ckikj123l2ufl26jitdp53.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNTaFdBhOWvCZIK9axSdqusrBUt0gholQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490898174658-dchgsirc56ckikj123l2ufl26jitdp53.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
