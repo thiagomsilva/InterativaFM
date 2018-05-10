@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_radio"
+            android:icon="@drawable/ic_push"
+            android:title="Rádio" />
+        <item
+            android:id="@+id/nav_pedidos"
+            android:icon="@drawable/ic_insert_comment"
+            android:title="Peça sua música" />
+        <item
+            android:id="@+id/nav_whatsapp"
+            android:icon="@drawable/whatsapp_logo"
+            android:title="WhatsApp Interativa" />
+    </group>
+
+</menu>
