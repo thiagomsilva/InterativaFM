@@ -3,7 +3,6 @@ package edmt.dev.androidmp3stream;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.WindowManager;
 
@@ -25,7 +24,7 @@ public class SplashScreen extends AppCompatActivity {
             @Override
             public void run() {
 
-                startActivity(new Intent(getBaseContext(), MainActivity.class));
+                startActivity(new Intent(getBaseContext(), PrincipalActivity.class)); // setamos qual activity queremos carregas após a splash screen
                 finish();
 
             }

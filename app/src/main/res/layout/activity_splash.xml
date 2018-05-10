@@ -18,7 +18,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:fontFamily="serif-monospace"
-        android:text="Versão 1.0"
+        android:text="@string/app_versao"
         android:textColor="@android:color/background_light"
         android:textSize="20sp"
         android:textStyle="bold" />

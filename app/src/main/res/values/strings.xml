@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_versao">Versão 2.0</string>
     <string name="app_name">Interativa FM 87,9</string>
     <string name="banner_ad_unit_id">ca-app-pub-2151889087791188/4475342346</string>
+    <string name="title_activity_menu">Interativa FM 87,9</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Interativa FM 87,9</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!--<string name="action_settings">Configurações</string>-->
 </resources>
