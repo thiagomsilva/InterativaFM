@@ -10,7 +10,7 @@
             android:title="Rádio" />
         <item
             android:id="@+id/nav_pedidos"
-            android:icon="@drawable/ic_insert_comment"
+            android:icon="@drawable/ic_action_music"
             android:title="Peça sua música" />
         <item
             android:id="@+id/nav_whatsapp"

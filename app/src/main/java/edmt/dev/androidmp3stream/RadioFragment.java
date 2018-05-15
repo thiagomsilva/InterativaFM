@@ -105,7 +105,6 @@ public class RadioFragment extends Fragment implements MediaPlayer.OnCompletionL
 
         mediaPlayer = new MediaPlayer();
         mediaPlayer.setOnCompletionListener(this);
-
         return View;
     }
 
@@ -115,4 +114,5 @@ public class RadioFragment extends Fragment implements MediaPlayer.OnCompletionL
         btn_play_pause.setImageResource(R.mipmap.ic_play);
 
     }
+
 }
