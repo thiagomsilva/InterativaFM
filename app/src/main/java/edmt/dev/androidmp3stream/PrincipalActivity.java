@@ -104,6 +104,12 @@ public class PrincipalActivity extends AppCompatActivity
             WhatsFragment zap = new WhatsFragment();
             getSupportFragmentManager().beginTransaction().replace(R.id.conteudo_fragment, zap).commit();
 
+        } else if (id == R.id.nav_sobre) {
+
+            //Chamada do Fragment WhatsApp pelo menu
+            SobreFragment sobre = new SobreFragment();
+            getSupportFragmentManager().beginTransaction().replace(R.id.conteudo_fragment, sobre).commit();
+
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

@@ -9,6 +9,7 @@
     <string name="nav_header_title">Interativa FM 87,9</string>
     <string name="nav_header_subtitle">Interativafm01@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
-
+    <string name="texto_predio">Galeria Centro Comercial Do Cabo</string>
+    <string name="texto_endereco">Av. Gov. Leonel de Moura Brizola, 50 - Centro, Arraial do Cabo - RJ</string>
     <!--<string name="action_settings">Configurações</string>-->
 </resources>

@@ -16,7 +16,7 @@ import android.widget.ProgressBar;
  */
 public class WhatsFragment extends Fragment {
 
-    WebView wv;
+    WebView web;
 
     public WhatsFragment() {
         // Required empty public constructor
@@ -31,15 +31,15 @@ public class WhatsFragment extends Fragment {
 
         Bundle bundle = getArguments();
 
-        wv = (WebView) rootView.findViewById(R.id.webViewWhats);
+        web = (WebView) rootView.findViewById(R.id.webViewWhats);
 
-        WebSettings ws = wv.getSettings();
+        WebSettings ws = web.getSettings();
         ws.setJavaScriptEnabled(true);
         ws.setSupportZoom(false);
 
-        wv.loadUrl("https://api.whatsapp.com/send?phone=5522997629116");
+        web.loadUrl("https://api.whatsapp.com/send?phone=5522997629116");
 
-        wv.setWebViewClient(new WebViewClient() {
+        web.setWebViewClient(new WebViewClient() {
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
                 ProgressBar pb = (ProgressBar) rootView.findViewById(R.id.progressBarWhats);
@@ -50,7 +50,7 @@ public class WhatsFragment extends Fragment {
             public void onPageFinished(WebView view, String url) {
                 ProgressBar pb = (ProgressBar) rootView.findViewById(R.id.progressBarWhats);
                 pb.setVisibility(View.INVISIBLE);
-                wv.setVisibility(View.VISIBLE);
+                web.setVisibility(View.VISIBLE);
             }
         });
         return rootView;

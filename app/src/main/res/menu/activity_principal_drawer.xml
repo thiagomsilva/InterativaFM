@@ -16,6 +16,10 @@
             android:id="@+id/nav_whatsapp"
             android:icon="@drawable/whatsapp_logo"
             android:title="WhatsApp Interativa" />
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/ic_action_info"
+            android:title="Sobre" />
     </group>
 
 </menu>
