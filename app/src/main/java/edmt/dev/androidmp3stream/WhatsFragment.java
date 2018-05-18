@@ -55,7 +55,7 @@ public class WhatsFragment extends Fragment {
                 web.setVisibility(View.INVISIBLE);
 
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                startActivity( intent );
+                startActivity( intent.createChooser(intent, ""));
             }
         });
         return rootView;
