@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SobreFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgmain">
+
+        <TextView
+            android:id="@+id/textViewTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="17dp"
+            android:elegantTextHeight="false"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@color/corTextoSobre"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewPredio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="214dp"
+            android:text="@string/texto_predio"
+            android:textAlignment="center"
+            android:textColor="@color/corTextoSobre"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextViewEndereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewPredio"
+            android:text="@string/texto_endereco"
+            android:textAlignment="center"
+            android:textColor="@color/corTextoSobre"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewDesenv"
+            android:layout_width="match_parent"
+            android:layout_height="19dp"
+            android:layout_above="@+id/textViewDireitos"
+            android:layout_alignParentStart="true"
+            android:text="Desenvolvido por Thiago Magalhães
+"
+            android:textAlignment="center"
+            android:textColor="@color/corTextoSobre" />
+
+        <TextView
+            android:id="@+id/textViewDireitos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textViewVersao"
+            android:layout_alignParentStart="true"
+            android:text="© Todos os direitos reservados"
+            android:textAlignment="center"
+            android:textColor="@color/corTextoSobre" />
+
+        <TextView
+            android:id="@+id/textViewVersao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="17dp"
+            android:layout_marginEnd="0dp"
+            android:text="@string/app_versao"
+            android:textAlignment="center"
+            android:textColor="@color/corTextoSobre" />
+
+    </RelativeLayout>
+
+</FrameLayout>

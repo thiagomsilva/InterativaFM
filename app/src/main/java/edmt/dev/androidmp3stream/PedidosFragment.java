@@ -25,7 +25,6 @@ public class PedidosFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
 
         final View rootView = inflater.inflate(R.layout.fragment_pedidos, container, false);
 
@@ -36,7 +35,6 @@ public class PedidosFragment extends Fragment {
         WebSettings ws = wv.getSettings();
         ws.setJavaScriptEnabled(true);
         ws.setSupportZoom(false);
-
         wv.loadUrl("http://www.interativafm.org/peca-sua-musica");
 
         wv.setWebViewClient(new WebViewClient() {

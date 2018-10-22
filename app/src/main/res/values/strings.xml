@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_versao">Versão 2.1</string>
+    <string name="app_versao">Versão 2.2</string>
     <string name="app_name">Interativa FM 87,9</string>
     <string name="banner_ad_unit_id">ca-app-pub-2151889087791188/4475342346</string>
     <string name="title_activity_menu">Interativa FM 87,9</string>
@@ -11,5 +11,8 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="texto_predio">Galeria Centro Comercial Do Cabo</string>
     <string name="texto_endereco">Av. Gov. Leonel de Moura Brizola, 50 - Centro, Arraial do Cabo - RJ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <!--<string name="action_settings">Configurações</string>-->
 </resources>

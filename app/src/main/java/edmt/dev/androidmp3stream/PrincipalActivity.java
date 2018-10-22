@@ -1,5 +1,6 @@
 package edmt.dev.androidmp3stream;
 
+import android.app.ActionBar;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -58,7 +59,7 @@ public class PrincipalActivity extends AppCompatActivity
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the principal; this adds items to the action bar if it is present.
+
         getMenuInflater().inflate(R.menu.principal, menu);
         return true;
     }
@@ -110,6 +111,11 @@ public class PrincipalActivity extends AppCompatActivity
             SobreFragment sobre = new SobreFragment();
             getSupportFragmentManager().beginTransaction().replace(R.id.conteudo_fragment, sobre).commit();
 
+        } else if (id == R.id.nav_privacidade) {
+
+            //Chamada do Fragment política de privacidade pelo menu
+            PrivacidadeFragment privacidade = new PrivacidadeFragment();
+            getSupportFragmentManager().beginTransaction().replace(R.id.conteudo_fragment, privacidade).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
